@@ -1,0 +1,36 @@
+.container_sucupira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.container_sucupira > img{
+    width: 370px;
+    margin-top: 5vh;
+    margin-left: 70px;
+}
+
+.txt{
+    margin-left: 50px;
+}
+
+.txt > h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.txt > h2{
+    color: white;
+    margin-top: -27px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+}
+
+.txt > p{
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,46 @@
+.body{
+    background: rgb(0,30,215);
+    background: linear-gradient(336deg, rgba(0,30,215,1) 0%, rgba(0,156,255,1) 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.body::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1500px;
+    height: 700px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 70px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.contatos{
+    position: absolute;
+}
+
+.contatos > .icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 63vh;
+    margin-left: 40px;
+}
+
+.icons > a{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.icons > a:hover{
+    color: yellow;
+}
